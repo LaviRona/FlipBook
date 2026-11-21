@@ -1,0 +1,13 @@
+diff --git a/CLIP_/clip/auxilary.py b/CLIP_/clip/auxilary.py
+index 843b3e8..0bed11b 100644
+--- a/CLIP_/clip/auxilary.py
++++ b/CLIP_/clip/auxilary.py
+@@ -13,7 +13,7 @@ from torch.nn import functional as F
+ # We define this function as _pad because it takes an argument
+ # named pad, which clobbers the recursive reference to the pad
+ # function needed for __torch_function__ support
+-pad = F._pad
++pad = F.pad  # torch>=2: F._pad removed
+ 
+ # This class exists solely for Transformer; it has an annotation stating
+ # that bias is never None, which appeases TorchScript

@@ -1,0 +1,9 @@
+# Exploratory, added after seeing the test results and reported separately. Run BF = warm start + flow: the control
+# points of drawing t are moved by RAFT flow and refined for 150 iterations, with no regularizer (lam 0), no
+# re-initialization of occluded strokes and no keyframes (K 0).
+name: explore_bf
+clips: [blackswan, camel, horsejump-high]
+seeds: [0, 1, 2]
+n_frames: 24
+runs:
+  - {method: C, motion: flow, lam: 0, K: 0, occluded_mode: keep, name: BF}

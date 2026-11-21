@@ -1,0 +1,14 @@
+# Test clips, part 2: all other methods with the fixed settings (configs/settings.yaml). Per-frame runs: test_A.yaml.
+# Main comparison first (3 seeds), then the lambda and K sweeps (seed 0).
+name: test
+clips: [blackswan, camel, horsejump-high]
+seeds: [0, 1, 2]
+n_frames: 24
+runs:
+  - {method: C, motion: flow, lam: 1.6e-3, K: 6}
+  - {method: C, motion: zero, lam: 0, K: 6}
+  - {method: B}
+sweeps_seed0:
+  - {method: C, motion: [zero, flow], lam: [0, 1.0e-4, 4.0e-4, 1.6e-3, 6.4e-3], K: 6}
+  - {method: C, motion: zero, lam: 0, K: [12, 0]}
+  - {method: C, motion: flow, lam: 1.6e-3, K: [12, 0]}

@@ -1,0 +1,12 @@
+# Development runs on the dog clip. All settings were chosen here, never on the test clips.
+name: dev
+clips: [dog]
+seeds: [0]
+n_frames: 24
+runs:
+  - {method: A}
+  - {method: B}
+  # propagation without flow (motion zero, runs BL_*) and flow propagation (motion flow, runs C_*), lambda sweep, K = 6
+  - {method: C, motion: [zero, flow], lam: [0, 1.0e-4, 4.0e-4, 1.6e-3, 6.4e-3], K: 6}
+  # flow propagation with the flow applied to points sampled on each curve instead of the control points
+  - {method: C, motion: flow, warp: curve, lam: [0, 1.0e-4, 4.0e-4, 1.6e-3, 6.4e-3], K: 6}

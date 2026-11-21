@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data and third-party code (downloaded, not versioned)
+data/
+third_party/
+checkpoints/
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Outputs: runs and job logs stay local; reports, small tables, figures and GIFs are versioned
+results/**
+!results/**/
+!results/**/*.md
+!results/**/*.gif
+!results/**/.gitkeep
+!results/figures/**/*.png
+!results/clips/**/*.png
+!results/clips/**/meta.json
+!results/eval/**/*.csv
+!results/eval/**/*.json
+!results/summary/**/*.json
+!results/timing/*.json
+results/jobs/**
+

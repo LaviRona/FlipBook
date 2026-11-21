@@ -1,0 +1,17 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 233e4be..749d747 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -17,10 +17,10 @@ option(DIFFVG_CUDA "Build diffvg with GPU code path?" ON)
+ if(DIFFVG_CUDA)
+     message(STATUS "Build with CUDA support")
+     find_package(CUDA 10 REQUIRED)
+-    set(CMAKE_CUDA_STANDARD 11)
++    set(CMAKE_CUDA_STANDARD 17)
+     if(NOT WIN32)
+         # Hack: for some reason the line above doesn't work on some Linux systems.
+-        set(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS} -std=c++11")
++        set(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS} -std=c++17 -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_86,code=sm_86 -gencode=arch=compute_89,code=sm_89 -gencode=arch=compute_90,code=sm_90 -gencode=arch=compute_100,code=sm_100 -gencode=arch=compute_120,code=sm_120 -gencode=arch=compute_120,code=compute_120")
+         #set(CUDA_NVCC_FLAGS_DEBUG "-g -G")
+     endif()
+ else()

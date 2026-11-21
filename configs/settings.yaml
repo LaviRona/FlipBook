@@ -1,0 +1,26 @@
+# Settings used on the test clips. They were chosen on the development clip (dog) only: for each method, the setting
+# with the lowest flicker whose LPIPS stays within 10% and CLIP similarity within 5% of per-frame drawing
+# (results/summary/dev/summary.md). Run names: A per-frame, B warm start, BL_* propagation without flow,
+# C_* flow propagation, BF warm start + flow (scripts/run_sequence.py).
+dev_clip: dog
+test_clips: [blackswan, camel, horsejump-high]   # chosen by looking only at the per-frame drawing of frame 0
+seeds: [0, 1, 2]
+n_frames: 24
+stride: 2
+strokes: 16
+
+methods:
+  per_frame:           {method: A, first_iters: 2001, snapshots: [150, 300, 500, 750, 1000, 1500]}          # run A
+  warm_start:          {method: B, N: 150}                                                                     # run B
+  propagation_no_flow: {method: C, motion: zero, lam: 0.0, K: 6, N: 150, anchor_iters: 500, anchor_lam: 0.0}    # BL_lam0_K6
+  flow_propagation:    {method: C, motion: flow, lam: 1.6e-3, K: 6, N: 150, anchor_iters: 500, anchor_lam: 0.0} # C_lam0.0016_K6
+  warp: points         # the flow moves the control points (moving points sampled on the curve was worse on dog)
+
+metrics:
+  flicker: chamfer_eval           # symmetric chamfer distance (px) after warping with GMFlow
+  eval_flow: "GMFlow (UniMatch) scale2-regrefine6, mixdata weights"
+  method_flow: "RAFT large (torchvision)"
+  fidelity: [lpips_alexnet, clip_vit_l14]
+  cost: iterations_per_frame
+
+selection_rule: "lowest flicker relative to per-frame drawing, with LPIPS <= 1.10x and CLIP >= 0.95x per-frame"
