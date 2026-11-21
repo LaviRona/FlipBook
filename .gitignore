@@ -27,3 +27,6 @@ results/**
 !results/timing/*.json
 results/jobs/**
 
+
+# Temporary files left by the network drive
+.nfs*
