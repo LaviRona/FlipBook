@@ -19,8 +19,8 @@
 A flipbook made from a video should resemble the video on every page and should not flicker when its pages are
 flipped. CLIPasso draws a good sketch of a single image with a few strokes, but when every frame of a video is drawn
 separately, the strokes jump from page to page. A natural remedy is to draw the frames in order, starting each drawing
-from the previous one after moving its strokes along the optical flow. A recent video sketching method set optical flow
-aside, warning that its errors might accumulate, without testing it. We build such a method one component at a time,
+from the previous one after moving its strokes along the optical flow. A recent video sketching method avoided optical
+flow, warning that its errors might accumulate, but reported no experiment with it. We build such a method one component at a time,
 choose all settings on one clip, and evaluate on three new clips. Starting from the previous drawing turns out to
 matter far more than following the optical flow.
 \end{abstract}
@@ -38,8 +38,10 @@ frames in order and start each drawing from the previous one, after moving its s
 the estimated motion of every pixel between two frames. Earlier work disagrees on whether this helps. In painterly
 rendering, strokes moved this way~\citep{litwinowicz1997processing,hertzmann2000painterly} flicker because motion errors
 accumulate~\citep{collomosse2004mid}, while in video style transfer a flow-warped start works much better than an
-unwarped one~\citep{ruder2016artistic}. For sketches, Zheng et al.~\citep{zheng2024sketchvideo} set optical flow aside
-as ``the most naive approach'', warning of ``cumulative errors'', without testing it, and LiveSVG~\citep{levy2026livesvg}
+unwarped one~\citep{ruder2016artistic}. For sketches, Zheng et al.~\citep{zheng2024sketchvideo} call consistency through
+optical flow ``the most naive approach'', warn of ``cumulative errors'' and use a neural atlas instead; they report no
+experiment with flow, although their public code contains a flow-based initialization that is switched off.
+LiveSVG~\citep{levy2026livesvg}
 finds that starting each vector frame from tracked points helps. To our knowledge, these starting points have not been
 compared in a controlled study for CLIP-optimized line sketches.
 

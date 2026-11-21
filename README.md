@@ -14,8 +14,8 @@ of strokes, so the lines land somewhere new every time, even when the object bar
 
 A natural fix is to draw the pages in order and start each one from the page before it, after nudging its strokes
 along the optical flow, the estimated motion of every pixel between two frames. Earlier work on sketch videos
-([Zheng et al.](https://arxiv.org/abs/2311.15306)) set optical flow aside, worried that small errors would pile up
-from page to page, but never tested it. So we did.
+([Zheng et al.](https://arxiv.org/abs/2311.15306)) avoided optical flow, worried that small errors would pile up
+from page to page, but their paper doesn't show any experiment with it. So we tested it.
 
 ## What we compared
 
