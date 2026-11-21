@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Rebuild every versioned output from the evaluated runs, in place: summary tables, figures, GIFs, the report's
-# figures and (if Tectonic is available) the report and proposal PDFs. No GPU needed.
+# figures and (if Tectonic is available) the report PDF. No GPU needed.
 #
 #   scripts/rebuild_outputs.sh
 #
@@ -46,12 +46,11 @@ cp results/figures/report/fig_onion.png results/figures/report/fig_strip.png res
   results/figures/test/overview.png report/figures/
 
 if [[ -x "$TECTONIC" ]]; then
-  echo "[rebuild] report and proposal PDFs"
+  echo "[rebuild] report PDF"
   BUILD="$(mktemp -d)"
-  (cd report && for f in main proposal; do "$TECTONIC" -X compile --outdir "$BUILD" "$f.tex" > "$BUILD/$f.out" 2>&1 \
+  (cd report && for f in main; do "$TECTONIC" -X compile --outdir "$BUILD" "$f.tex" > "$BUILD/$f.out" 2>&1 \
      || { cat "$BUILD/$f.out"; exit 1; }; done)
   cp "$BUILD/main.pdf" report/report.pdf
-  cp "$BUILD/proposal.pdf" report/proposal.pdf
   rm -rf "$BUILD"
 else
   echo "[rebuild] Tectonic not found at $TECTONIC: PDFs not rebuilt (compile report/ on Overleaf instead)"
