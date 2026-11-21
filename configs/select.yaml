@@ -1,0 +1,8 @@
+# Test-clip selection: the per-frame drawing of frame 0 (seed 0) on each candidate clip, checked by eye before any
+# other method ran on it.
+# These frames are reused by the test runs (stage 0).
+name: select
+clips: [blackswan, bear, camel, car-roundabout, goat, horsejump-high]
+seeds: [0]
+n_frames: 24
+runs: []

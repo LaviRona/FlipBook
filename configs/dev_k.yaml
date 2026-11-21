@@ -1,0 +1,9 @@
+# Development, follow-up: keyframe interval K at the lambda chosen by the selection rule (flow propagation 1.6e-3,
+# propagation without flow 0) on dog.
+name: dev_k
+clips: [dog]
+seeds: [0]
+n_frames: 24
+runs:
+  - {method: C, motion: flow, lam: 1.6e-3, K: [12, 0]}
+  - {method: C, motion: zero, lam: 0, K: [12, 0]}

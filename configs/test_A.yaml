@@ -1,0 +1,8 @@
+# Test clips, part 1: per-frame CLIPasso (run A, no tunable settings).
+name: test_A
+clips: [blackswan, camel, horsejump-high]
+seeds: [0, 1, 2]
+n_frames: 24
+a_chunk: 4
+runs:
+  - {method: A}

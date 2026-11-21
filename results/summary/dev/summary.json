@@ -1,0 +1,4705 @@
+{
+  "clips": [
+    "dog"
+  ],
+  "flicker_metric": "chamfer_eval",
+  "selection_limits": {
+    "lpips": 1.1,
+    "clip_q": 0.95
+  },
+  "selection_choice": {
+    "C": "C_lam0.0016_K6",
+    "BL": "BL_lam0_K6"
+  },
+  "A_seed_to_seed": {
+    "dog": null
+  },
+  "runs": {
+    "A": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 1.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 1.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 1.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.1157665236213665,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.050422320385342057,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.980046612032546,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.052007923955502716,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.22478645910387454,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7495666146278381,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.05144890025258064,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 2001.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 354.268933047419,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": NaN,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 0
+      }
+    },
+    "A@1000": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.1919970440495156,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.9783370425783245,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0387266051734612,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.9899094490011465,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.004195994238739,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9911879640966214,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.9418619275809809,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.49975012493753124,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.5319559084961131,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.5219874420555883,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.049330023805732315,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0180004902283186,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.05148313534648522,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.22572966179122095,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7429614067077637,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.048457760363817215,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 1000.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 188.45545213118842,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": NaN,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 0
+      }
+    },
+    "A@150": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 2.008207550577475,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.8357450361560841,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.301906325369909,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.8286965985632885,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0796654167294863,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9424580424966011,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.6419394543755864,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.07496251874062969,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.0930055606993281,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 4.248898307995484,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.042140203973521355,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.2759288833625209,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.04309878968026327,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.24269416604353033,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7064350843429565,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.033027078956365585,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 150.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 32.94898075642793,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": NaN,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 0
+      }
+    },
+    "A@1500": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.1039568506744717,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.007009443025024,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0415217876000724,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.010983176436552,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0031906932342423,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9940884126701772,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.9668635404597983,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.7496251874062968,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.7869000537679243,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.335714948179519,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.05077575276727262,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0207398992955319,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.052579136160404785,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.22550368373808655,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.745135486125946,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.04974406585097313,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 1500.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 278.7742424633192,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": NaN,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 0
+      }
+    },
+    "A@300": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.602180084754568,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.9311864965504425,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.1940680487760587,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.9280550250420956,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0431886964552013,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9659077418001993,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.7798437429968295,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.14992503748125938,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.16843657082866528,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 3.3898389881365585,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.046952583867570626,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.1702423457392892,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.048266215168911476,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.2344946932533513,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7240121960639954,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.040122102946043015,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 300.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 59.67184423363727,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": NaN,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 0
+      }
+    },
+    "A@500": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.3968204739671133,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.9794173354008195,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.1343263245292015,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.9780001370797616,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.022081926333783,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9849927331736013,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.8634352515862871,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.24987506246876562,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.26972949402146523,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.9553459983285486,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.04938449467653814,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.1116926712941742,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.05086375675771548,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.22975017713463824,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7383176684379578,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.04442279413342476,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 500.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 95.55678005840467,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": NaN,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 0
+      }
+    },
+    "A@750": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.272428291294153,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.0108801571607882,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.096446033079258,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.0200623780184457,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.012341645089415,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9898585686407556,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.9219607045518083,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.3748125937031484,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.4029576552198336,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.6921611824289053,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.05097092315554619,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0745682199958517,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.053051326585852585,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.22756069380304086,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7419649362564087,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.04743386432528496,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 750.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 142.75537857802018,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": NaN,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 0
+      }
+    },
+    "B": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.0210660501375088,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.1249558978029703,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0472521120475933,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.1254380348651984,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0592486594300528,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9668384299456385,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.07419778376331,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.07496251874062969,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.1087090393184659,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.1603373672872372,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.05672288669840149,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.026355884356172,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.05853169573389966,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.23810475546380747,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7247098088264465,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.05526629462838173,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 150.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 38.51223537196284,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.0009181779246085242,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BF": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.8859091545548751,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.1385201571971508,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0082928604900991,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.1350756209648423,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.143105732707088,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9874810357579387,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.129156222175125,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.07496251874062969,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.02616598459277182,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.874376932176912,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.05740682813136474,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9881740018599261,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.05903292657888454,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.25695469003656635,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7401828169822693,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.0580938458442688,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 150.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 9.269795443816477,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.001100200762155027,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BL_lam0.0001_K6": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.0457855017707387,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.9314778669794509,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.013658926245345,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.9388774809393856,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0675453022847643,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9704945457651025,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.9189263201476477,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.1532449581818564,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.212637955535102,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.0469672754406929,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9934329964232989,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.048829068632229515,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.23996972843356754,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7274503111839294,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.047277748584747314,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 54.28992782998262,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.002802703662277904,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BL_lam0.0004_K6": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.2151733218478098,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.0699273932040856,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.1459267290772808,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.077248266920157,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.1220280524974193,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9649973309511618,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.9336787126569679,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.13824606074086063,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.5710230347633685,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.053948221809190254,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.1230616084697262,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.056025445947180626,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.25221671293611114,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7233297824859619,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.04803674295544624,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 48.976284436673375,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.006457766614956404,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BL_lam0.0016_K6": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 2.0610551442348815,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.1407816974630354,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.3453815089538954,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.1393517988392619,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.3839269518969068,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9478385236983149,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.847924317281611,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.13480109620028932,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 4.360711477509769,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.05752086023921552,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.3185365897414996,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.05925532171259756,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.3110880391753238,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7104681134223938,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.04362477362155914,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 47.755840524498986,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.02813170627780159,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BL_lam0.0064_K6": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 2.2559860258178346,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.2145637531851998,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.3850453589250091,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.201120887407836,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.4758965712266043,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9466664959662892,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.8769126190407748,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.15311446475595789,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 4.773139711182982,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.06124112269152766,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.3574090115258568,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.062467803773672684,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.33176156424957776,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7095896005630493,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.04511618986725807,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 54.24369806321984,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.03395912229810678,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BL_lam0_K12": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.0514914170154892,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.0667673670914413,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0635573753324388,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.0553381617200355,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0729044520188955,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9604587949035759,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.0030181651065126,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.0825674119462008,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.06878855672441564,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.2247103399965664,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.05378888596011245,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0423358023967835,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.05488594686207564,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.24117439272611038,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7199278473854065,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.05160418152809143,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 165.2173913043478,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 24.36964859663059,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.004132402364370844,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BL_lam0_K6": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.0352099084003676,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.9063978198556019,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9895295076200148,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.9141889132270659,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0317034413051442,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9779732897909538,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.9159886722687445,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.13704824813300928,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.1902624691146393,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.04570268126933471,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9697850414492288,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.04754506748007691,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.2319129634162654,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7330561280250549,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.047126609832048416,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 48.551936642099136,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.002193932735348404,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BL_lam0_Kinf": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 1.1089739151425375,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.1108894351050267,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.1070833800440958,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.0965841464938675,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.1024855691066693,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9565195921225804,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.0034379118407317,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.07496251874062969,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.06676257544735537,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.346329885227903,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.05601362300955731,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 1.0849933158497556,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.05703106490166291,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.24782382729260818,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7169751524925232,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.051625777035951614,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 150.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 23.6519063712324,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.0017609466824371348,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0001_K6": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.9584319630940586,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.9378565090548037,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9842108149677486,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.9428818256851696,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0234004951078193,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9824266611936521,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.9529020559335513,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.13790693655324762,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 2.0278182626831183,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.047288901375039764,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.964572474734933,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.04903732628925987,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.23004657354043878,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7363942265510559,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.0490257628262043,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 48.85614327255714,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.0015780256729419947,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0001_K6_curve": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.7747707620870986,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.0144532080680553,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9575323244054319,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.0111389701268767,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0475511975097214,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9655161911826204,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.0594453912539898,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.15252599929782826,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.6392340419044975,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.051151084673145546,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9384263104451922,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.05258723866680394,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.2354753244182338,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7237187027931213,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.0545073002576828,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 54.035223033233,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.002100035242021903,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0004_K6": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.7521095595553343,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.9347144185449899,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9342017500741814,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.9399693572419174,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0637313649688116,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9456274236836119,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.0005487770396146,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.15282643305116309,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.591288228202787,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.047130469880674195,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9155612601150767,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.048885854851940407,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.23911240696907043,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7088107466697693,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.051477134227752686,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 54.141657378478364,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.0010648123919963855,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0004_K6_curve": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.6699294750080318,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.8422332497153376,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.8811449348228411,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.8569784399097337,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0567738466446603,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9640362666205246,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.9558396314048757,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.1343318088480998,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.4174143564092305,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.042467354756334556,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.8635631080827639,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.04456966953433078,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.23754845106083414,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7226094007492065,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.0491768978536129,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 47.58958659494616,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.0025906826943567374,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0016_K12": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.6366718746396439,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.7271560159771835,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.8292839692522661,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.7278175524804711,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.118065627797793,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9679125700232696,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.8768480314804982,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.0825674119462008,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.07137631113503945,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.3470490388938179,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.03666489360773045,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.8127369444785854,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.037852279922884445,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.2513260135184164,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7255149483680725,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.045112866908311844,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 165.2173913043478,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 25.286409590671038,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.003783531082120564,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0016_K6": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.6367805375409178,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.787754886446337,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.8362370715934371,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.7891065146371886,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0696968144082364,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.969132547597375,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.9420233964816723,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.1343840406695694,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.3472789442226927,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.03972042926951595,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.8195513088711656,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.041039791606042694,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.2404533592255219,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7264294028282166,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.048466067761182785,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 47.60809070660932,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.0035206506717694987,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0016_K6_curve": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.6139467013258231,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.8512755769574413,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.7980274040184919,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.8385752062998092,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.1990357442182538,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9673070342895443,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.0667247423720245,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.13678062272725774,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.298967877952942,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.04292328987756501,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.7821040536174507,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.04361255556021048,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.2695269992818003,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7250610589981079,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.05488181486725807,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 48.457125275147156,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.004786402987290741,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0016_Kinf": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.5087911090393312,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.7447887629758996,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.8209969708001155,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.7642558623149149,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.142935963255807,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9485831378297138,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.9071760182623498,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.07496251874062969,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.06833981799350472,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.0764831960216055,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.03755397762617339,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.8046152997216363,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.03974736076982125,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.2569165281627489,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7110262513160706,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.046673208475112915,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 150.0,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 24.210674405213723,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.00262152789374114,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0064_K6": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.6834731615361598,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.6268580675008075,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.7313364861278581,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.6301706174015658,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.136837521069146,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9487056763150284,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.8571404263169979,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.13796837815073365,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.4460696349718654,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.031607638315662094,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.7167438454853944,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.03277386554881283,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.2555456809375597,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7111181020736694,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.044098932296037674,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 48.87791012174325,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.009297373196850093,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0064_K6_curve": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.34715248721313785,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.7165780962901565,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.5977932772005928,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.7147301693146829,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.1488237925215148,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9315497317393204,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.1987055117879901,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.15347598155071954,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 0.7344936110374516,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.03613153035226076,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.5858652760162736,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.03717163229442161,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.25824003245519556,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.6982585787773132,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.06167208030819893,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 54.371772232378774,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.0041823418377196974,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0_K6": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.8707733687840864,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.0270387524373075,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9848509313700398,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.03025771642956,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.0383444090489484,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9713993107786713,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.0428367580549267,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.15273910396369275,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.8423531433343727,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.05178567702355592,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9651998186463049,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.05358156497063844,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.2334057630404182,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7281284928321838,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.0536528043448925,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 54.110719395836234,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 0.0020459965789971306,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0_K6_curve": {
+      "rel_A": {
+        "chamfer_eval": {
+          "mean": 0.8823681964291924,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 1.019737168043062,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9991592341537504,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 1.0193703457160557,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 1.055049416966748,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.9729851543949132,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 1.0205952496718307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 0.09777719835734307,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 0.1339779900067279,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "abs": {
+        "chamfer_eval": {
+          "mean": 1.8668850915130475,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_eval": {
+          "mean": 0.05141751419590867,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_per_ink": {
+          "mean": 0.9792226223134164,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ewarp_raft": {
+          "mean": 0.05301533542249514,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "lpips": {
+          "mean": 0.23716082261956256,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "clip_q": {
+          "mean": 0.7293171882629395,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "ink": {
+          "mean": 0.05250850319862366,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "iters_per_frame": {
+          "mean": 195.65217391304347,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        },
+        "gpu_s_per_frame": {
+          "mean": 47.464239571521254,
+          "ci": [
+            NaN,
+            NaN
+          ],
+          "n": 1
+        }
+      },
+      "drift_slope_lpips_gap_per_step": {
+        "mean": 4.660456556163474e-05,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    }
+  },
+  "paired_C_vs_BL": {
+    "C_lam0.0001_K6 vs BL_lam0.0001_K6": {
+      "chamfer_rel_change": {
+        "mean": -0.08352911617991621,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "ewarp_rel_change": {
+        "mean": 0.0068478729355503365,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "lpips_ratio_diff": {
+        "mean": -0.04414480717694502,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0004_K6 vs BL_lam0.0004_K6": {
+      "chamfer_rel_change": {
+        "mean": -0.3810680780815153,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "ewarp_rel_change": {
+        "mean": -0.12637584149909153,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "lpips_ratio_diff": {
+        "mean": -0.05829668752860773,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0016_K6 vs BL_lam0.0016_K6": {
+      "chamfer_rel_change": {
+        "mean": -0.6910414845900168,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "ewarp_rel_change": {
+        "mean": -0.30946044436178155,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "lpips_ratio_diff": {
+        "mean": -0.31423013748867046,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0064_K6 vs BL_lam0.0064_K6": {
+      "chamfer_rel_change": {
+        "mean": -0.6970401617233473,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "ewarp_rel_change": {
+        "mean": -0.4838821215791522,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "lpips_ratio_diff": {
+        "mean": -0.3390590501574584,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0_K6 vs BL_lam0_K6": {
+      "chamfer_rel_change": {
+        "mean": -0.1588436685950705,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "ewarp_rel_change": {
+        "mean": 0.13309931901747607,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "lpips_ratio_diff": {
+        "mean": 0.0066409677438041825,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0016_K6 vs BL_lam0_K6": {
+      "chamfer_rel_change": {
+        "mean": -0.3848778567770018,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "ewarp_rel_change": {
+        "mean": -0.13089498982705616,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "lpips_ratio_diff": {
+        "mean": 0.03799337310309214,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "C_lam0.0016_K6 vs B": {
+      "chamfer_rel_change": {
+        "mean": -0.3763571539224506,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "ewarp_rel_change": {
+        "mean": -0.2997459829449174,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "lpips_ratio_diff": {
+        "mean": 0.010448154978183632,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BF vs B": {
+      "chamfer_rel_change": {
+        "mean": -0.13236841589673065,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "ewarp_rel_change": {
+        "mean": 0.012057592142653117,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "lpips_ratio_diff": {
+        "mean": 0.08385707327703518,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BF vs C_lam0.0016_K6": {
+      "chamfer_rel_change": {
+        "mean": 0.3912315190662512,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "ewarp_rel_change": {
+        "mean": 0.4452720976865798,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "lpips_ratio_diff": {
+        "mean": 0.07340891829885154,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    },
+    "BF vs BL_lam0_K6": {
+      "chamfer_rel_change": {
+        "mean": -0.14422268627258006,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "ewarp_rel_change": {
+        "mean": 0.25609322116256683,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      },
+      "lpips_ratio_diff": {
+        "mean": 0.11140229140194369,
+        "ci": [
+          NaN,
+          NaN
+        ],
+        "n": 1
+      }
+    }
+  }
+}
